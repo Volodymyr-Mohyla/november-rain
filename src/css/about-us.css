@@ -129,38 +129,8 @@
 }
 
 @media screen and (min-width: 1440px) {
-  .container {
-    max-width: 1440px;
-  }
-
-  .about-us {
-    padding-top: 150px;
-  }
-
-  .about-img {
-    margin-bottom: 0;
-  }
-  .wrap-about-content {
-    display: flex;
-    align-items: center;
-    flex-wrap: nowrap;
-    gap: 50px;
-  }
-
   .about-text-wrap {
     gap: 40px;
     max-width: 630px;
-  }
-
-  .about-text-item {
-    width: 314px;
-  }
-
-  .first-text {
-    width: 314px;
-  }
-
-  .second-text {
-    width: 276px;
   }
 }
