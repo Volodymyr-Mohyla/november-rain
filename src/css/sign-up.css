@@ -1,11 +1,292 @@
-.signUp-title {
-    font-size: 28px;
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: -0.04em;
+.signUp-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+    max-width: 295px;
+}
+
+.signUp-form {
+    display: block;
+}
+
+.signUp-input {
+    width: 100%;
+    height: 46px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background-color: transparent;
+    margin-bottom: 8px;
+
+    outline: transparent;
+
+    color: #FFF;
+    font-size: 14px;
+
+    line-height: 1.29;
+    padding-left: 18px;
+}
+
+.signUp-input:focus {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+}
+
+.signUp-textarea {
+    width: 100%;
+    height: 112px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background-color: transparent;
+    resize: none;
+    padding: 14px 18px;
+    margin-bottom: 40px;
+
+    outline: transparent;
+
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.29;
+}
+
+.signUp-textarea:focus {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+}
+
+.signUp-btn {
+    color: #121212;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.25;
+    text-transform: uppercase;
+    border: none;
+
+    cursor: pointer;
+    width: 100%;
+    height: 48px;
+
+    /* padding: 14px 127px; */
+    margin: 0 auto;
+
+    border-radius: 12px;
+    background: #FFF;
     margin-bottom: 20px;
 }
 
-.signUp-title span {
+
+.signUp-btn:hover,
+.signUp-btn:focus {
+    background: #1D1D1D;
     color: #BEA69E;
 }
+
+.signUp-last-text {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    line-height: 1.33;
+    /* letter-spacing: -0.02em; */
+}
+
+.signUp-last-text a {
+    color: rgba(255, 255, 255, 0.50);
+    text-decoration-line: underline;
+}
+
+
+.wrap-image {
+    display: none;
+}
+
+
+
+/* ================= END MEDIA 320 ================= */
+
+/* 
+@media screen and (min-width: 375px) {
+
+    .container {
+        max-width: 375px;
+        padding: 0 20px;
+        margin: 0 auto;
+    }
+} */
+
+
+/* ============= MEDIA 768 ========================== */
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+
+    .signUp {
+        padding-top: 100px;
+    }
+
+    .signUp-title {
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.13;
+        letter-spacing: -0.04em;
+        margin-bottom: 20px;
+    }
+
+    .signUp-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.25;
+        letter-spacing: -0.02em;
+        margin-bottom: 40px;
+        max-width: 480px;
+    }
+
+    .signUp-input {
+        width: 480px;
+        height: 60px;
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 14px;
+    }
+
+    .signUp-textarea {
+        width: 480px;
+        height: 119px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+
+    .signUp-btn {
+        font-size: 18px;
+        line-height: 1.56;
+        text-transform: uppercase;
+
+        width: 480px;
+        height: 60px;
+    }
+
+    .signUp-last-text {
+        font-size: 14px;
+        line-height: 1.29;
+        max-width: 480px;
+    }
+
+}
+
+/* ================ END MEDIA 768 ===================== */
+
+/* ================== MEDIA 1280 ====================== */
+
+
+@media screen and (min-width: 1280px) {
+
+    .container {
+        max-width: 1280px;
+        padding: 0 100px;
+    }
+
+    .signUp {
+        padding-top: 150px;
+    }
+
+    .wrap-signUp {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+
+        align-items: flex-start;
+    }
+
+    .signUp-input {
+        display: block;
+    }
+
+    .signUp-btn {}
+
+    .bnt-send {
+        text-align: left;
+    }
+
+    .signUp-list {
+        display: flex;
+        gap: 20px;
+    }
+
+    .wrap-text {
+        display: block;
+    }
+
+    .wrap-image {
+        display: flex;
+        width: 540px;
+    }
+
+
+    .signUp-obj {
+        border-radius: 1000px;
+        background: #BEA69E;
+
+        box-shadow: -35.56212px 17.78106px 25.43959px 0px rgba(0, 0, 0, 0.26);
+
+        width: 180px;
+        height: 288px;
+
+        display: flex;
+        align-items: center;
+
+        padding: 76px 19px 62px;
+        margin-right: 20px;
+
+        align-self: flex-end;
+    }
+
+    .signUp-img-obj {}
+
+
+    .signUp-nikon {
+        width: 340px;
+        height: 540px;
+        border-radius: 1000px;
+        background: #1D1D1D;
+
+        display: flex;
+
+        padding: 156px 50px 88px;
+    }
+
+    .signUp-img-nikon {}
+}
+
+
+/* ================ END MEDIA 1280 ==================== */
+
+/* ================== MEDIA 1440 ====================== */
+
+
+@media screen and (min-width: 1440px) {
+
+    .container {
+        max-width: 1440px;
+    }
+
+    .wrap-signUp {
+        gap: 200px;
+    }
+
+    .signUp-obj {
+        padding: 63px 18px;
+    }
+
+    .signUp-nikon {
+        padding: 139px 48px 88px;
+    }
+
+}
+
+/* ===================END MEDIA 1440====================== */
+>>>>>>>Stashed changes
