@@ -51,7 +51,7 @@
 
 @media screen and (min-width: 375px) {
   .container {
-    width: 335px;
+    max-width: 335px;
   }
 }
 
@@ -65,6 +65,7 @@
   }
 
   .about-title {
+    max-width: 196px;
     font-size: 48px;
     line-height: 1.13;
     margin-bottom: 50px;
@@ -106,6 +107,10 @@
 
   .about-us {
     padding-top: 150px;
+  }
+
+  .about-title {
+    max-width: 196px;
   }
 
   .about-img {
