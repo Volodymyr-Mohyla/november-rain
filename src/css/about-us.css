@@ -22,7 +22,7 @@
   color: #fff;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px) and (max-width: 375px) {
   .about-us {
     padding-top: 80px;
   }
@@ -49,15 +49,40 @@
   }
 }
 
-@media screen and (min-width: 375px) {
+@media screen and (min-width: 375px) and (max-width: 768px) {
   .container {
-    max-width: 335px;
+    max-width: 365px;
+  }
+
+  .about-us {
+    padding-top: 80px;
+  }
+
+  .about-title {
+    max-width: 114px;
+    font-size: 28px;
+    line-height: 1.14;
+    margin-bottom: 40px;
+  }
+
+  .about-img {
+    margin-bottom: 40px;
+  }
+
+  .about-text-wrap {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .about-text {
+    font-size: 14px;
+    line-height: 1.29;
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 768px) and (max-width: 1280px) {
   .container {
-    max-width: 704px;
+    max-width: 734px;
   }
 
   .about-us {
@@ -100,9 +125,9 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
   .container {
-    max-width: 1080px;
+    max-width: 1110px;
   }
 
   .about-us {
@@ -111,6 +136,9 @@
 
   .about-title {
     max-width: 196px;
+    font-size: 48px;
+    line-height: 1.13;
+    margin-bottom: 50px;
   }
 
   .about-img {
@@ -143,7 +171,28 @@
 
 @media screen and (min-width: 1440px) {
   .container {
-    max-width: 1240px;
+    max-width: 1270px;
+  }
+
+  .about-us {
+    padding-top: 150px;
+  }
+
+  .about-title {
+    max-width: 196px;
+    font-size: 48px;
+    line-height: 1.13;
+    margin-bottom: 50px;
+  }
+
+  .about-img {
+    margin-bottom: 0;
+  }
+  .wrap-about-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    gap: 40px;
   }
 
   .about-text-wrap {
