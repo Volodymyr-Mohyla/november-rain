@@ -244,6 +244,7 @@
   }
   .courses-item-text {
     line-height: 1.25;
+    letter-spacing: -0.02em;
   }
 
 }
@@ -280,7 +281,7 @@
     letter-spacing: -0.02em;
   }
   .courses-item-text {
-    letter-spacing: 0.04em;
+    letter-spacing: 0.01em;
     line-height: 1.14; 
   }
   .courses-item-wrapper {
