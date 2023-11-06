@@ -246,7 +246,7 @@
     }
 
 
-    .signUp-obj {
+    .signUp-lens {
         border-radius: 1000px;
         background: #BEA69E;
 
@@ -262,13 +262,14 @@
         align-self: flex-end;
     }
 
-    .signUp-img-obj {
-        background-color: transparent;
-        box-shadow: -35.56212px 17.78106px 25.43959px 0px rgba(0, 0, 0, 0.26);
+    .signUp-img-lens {
+
+        /* background-color: transparent;
+        box-shadow: -35.56212px 17.78106px 25.43959px 0px rgba(0, 0, 0, 0.26); */
     }
 
 
-    .signUp-nikon {
+    .signUp-camera {
         width: 340px;
         height: 540px;
         border-radius: 1000px;
@@ -279,7 +280,7 @@
         padding: 156px 50px 88px;
     }
 
-    .signUp-img-nikon {}
+    .signUp-img-camera {}
 }
 
 
@@ -298,11 +299,11 @@
         gap: 200px;
     }
 
-    .signUp-obj {
+    .signUp-lens {
         padding: 63px 18px;
     }
 
-    .signUp-nikon {
+    .signUp-camera {
         padding: 139px 48px 88px;
     }
 
