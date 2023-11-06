@@ -2,10 +2,12 @@
     max-width: 320px;
     padding-left: 20px;
     padding-right: 20px;
+    
     margin: 0 auto;
 }
 .reviews-section {
     background: #121212;
+    
   
 }
 .reviews-title {
@@ -20,20 +22,31 @@
         letter-spacing: -0.04em;
 }
 
-.first-student-wrapper {
+.student-card {
         width: 100%;
         height: 100%;
-        flex-shrink: 0;
+        
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.20);
+       
+        margin-top: 40px;
+        padding-left: 20px;padding-right: 20px;
+
+       
+        
 }
-.second-student-wrapper {
+.student-photo-wrap {
+    display: flex;
+    gap: 10px;
+}
+
+/* .second-student-wrapper {
         width: 100%;
         height: 100%;
-        flex-shrink: 0;
+       
         border-radius: 12px;
         border: 1px solid rgba(255, 255, 255, 0.20);
-}
+} */
 
 .student-name-title {
         
@@ -55,6 +68,7 @@
         line-height: 1.33;
         
         letter-spacing: -0.02em;
+        margin-bottom: 10px;
 }
 .reviews-card-container {
     
@@ -67,7 +81,7 @@
         }
 
 .reviews-icon-wrapper {
-    margin-top: 4px;
+    
     margin-bottom: 20px;
     display: flex;
     align-items: center;
@@ -95,9 +109,9 @@
        
        
         letter-spacing: -0.02em;
-        margin-left: 20px;
+        
 }
-.second-student-wrapper {
+.second-student-link {
     display: none;
 }
 
@@ -194,6 +208,9 @@
 
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
+    
+    
+    
     .reviews-container {
             max-width: 100%;
             padding-left: 64px;
@@ -232,18 +249,18 @@
                     height: 20px;
         
                 }
-                .stud-icon-wrap {
+                .student-photo-icon {
                     display: flex;
-                    align-items: baseline;
                     justify-content: space-between;
-        
+                                }
         
         
                 }
                 
+                
     
 
-}
+
 
                 
 
@@ -290,25 +307,24 @@
             height: 20px;
            
         }
-                
-.stud-icon-wrap {
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
+                  .student-photo-icon {
+                      display: flex;
+                      justify-content: space-between;
+                  }
 
+.second-student-link {
+    display: inline;
 
+    width: 100%;
+    height: 100%;
 
-}
-                .second-student-wrapper {
-                       display: inline;
-                        width: 100%;
-                        height: 100%;
-                        flex-shrink: 0;
-                        border-radius: 12px;
-                        border: 1px solid rgba(255, 255, 255, 0.20);
-                }
+    /* border-radius: 12px;
+                        border: 1px solid rgba(255, 255, 255, 0.20); */
 }
 .reviews-list {
     display: flex;
     gap: 20px;
 }
+
+}
+                
