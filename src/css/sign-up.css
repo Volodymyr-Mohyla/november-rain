@@ -51,6 +51,8 @@
 
     line-height: 1.29;
     padding-left: 18px;
+
+    transition: border-color 250ms ease-in-out;
 }
 
 .signUp-input:focus {
@@ -74,6 +76,8 @@
     font-size: 14px;
     font-style: normal;
     line-height: 1.29;
+
+    transition: border-color 250ms ease-in-out;
 }
 
 .signUp-textarea:focus {
@@ -99,6 +103,8 @@
     border-radius: 12px;
     background: #FFF;
     margin-bottom: 20px;
+
+    transition: background-color 250ms ease-in-out;
 }
 
 
@@ -125,19 +131,7 @@
     display: none;
 }
 
-
-
-/* ================= END MEDIA 320 ================= */
-
-/* 
-@media screen and (min-width: 375px) {
-
-    .container {
-        max-width: 375px;
-        padding: 0 20px;
-        margin: 0 auto;
-    }
-} */
+/* ================= END MEDIA 375 ================= */
 
 
 /* ============= MEDIA 768 ========================== */
@@ -256,8 +250,6 @@
         border-radius: 1000px;
         background: #BEA69E;
 
-        box-shadow: -35.56212px 17.78106px 25.43959px 0px rgba(0, 0, 0, 0.26);
-
         width: 180px;
         height: 288px;
 
@@ -270,7 +262,10 @@
         align-self: flex-end;
     }
 
-    .signUp-img-obj {}
+    .signUp-img-obj {
+        background-color: transparent;
+        box-shadow: -35.56212px 17.78106px 25.43959px 0px rgba(0, 0, 0, 0.26);
+    }
 
 
     .signUp-nikon {
