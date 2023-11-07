@@ -15,7 +15,9 @@
     font-size: 28px;
     font-weight: 500;
     line-height: 1.14;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.05em;
+
+    max-width: 93px;
     margin-bottom: 20px;
 }
 
@@ -118,7 +120,7 @@
     color: rgba(255, 255, 255, 0.50);
     font-size: 12px;
     line-height: 1.33;
-    letter-spacing: -0.02em;
+    letter-spacing: -0.06em;
 }
 
 .signUp-last-text a {
@@ -149,18 +151,22 @@
 
     .signUp-title {
         font-size: 48px;
-        font-weight: 500;
+        /* font-weight: 500; */
         line-height: 1.13;
-        letter-spacing: -0.04em;
-        margin-bottom: 20px;
+        /* letter-spacing: -0.05em; */
+
+        max-width: 159px;
+
+
+        /* margin-bottom: 20px; */
     }
 
     .signUp-text {
         font-size: 16px;
-        font-weight: 400;
+        /* font-weight: 400; */
         line-height: 1.25;
-        letter-spacing: -0.02em;
-        margin-bottom: 40px;
+        /* letter-spacing: -0.02em;
+        margin-bottom: 40px; */
         max-width: 480px;
     }
 
@@ -299,11 +305,24 @@
         gap: 200px;
     }
 
+    .wrap-image {
+        width: 560px;
+    }
+
+
+
+
     .signUp-lens {
+        width: 190px;
+        height: 288px;
+
         padding: 63px 18px;
     }
 
     .signUp-camera {
+        width: 350px;
+        height: 540px;
+
         padding: 139px 48px 88px;
     }
 
