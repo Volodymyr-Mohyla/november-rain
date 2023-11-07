@@ -189,12 +189,25 @@
         font-size: 16px;
         line-height: 1.25;
     }
+    .sign-up-lens{
+        position: relative;
+    }
+    .sing-up-div-for-shadow {
+        left: 10%;
+        top: 37%;
+        border-radius: 50%;
+        height: 24%;
+        width: 81%;
+        position: absolute;
+        background: initial;
+        box-shadow: -35.56212px 17.78106px 25.43959px 0px rgba(0, 0, 0, 0.26);
+    }
 
     .sign-up-btn {
         font-size: 18px;
         line-height: 1.56;
         text-transform: uppercase;
-
+        margin-top: -8px;
         padding: 16px 216px;
 
         width: 479px;
@@ -243,7 +256,9 @@
         height: 120px;
     }
 
-    .sign-up-btn {}
+    .sign-up-btn {
+        margin-top: -8px;
+    }
 
     .bnt-send {
         text-align: left;
