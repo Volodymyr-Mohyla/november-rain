@@ -6,12 +6,11 @@
 
 /* ================================================== */
 
-
-.signUp {
+.sign-up {
     padding-top: 80px;
 }
 
-.signUp-title {
+.sign-up-title {
     font-size: 28px;
     font-weight: 500;
     line-height: 1.14;
@@ -21,24 +20,24 @@
     margin-bottom: 20px;
 }
 
-.signUp-title span {
+.sign-up-title span {
     color: #BEA69E;
 }
 
-.signUp-text {
+.sign-up-text {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.29;
     letter-spacing: -0.02em;
-    margin-bottom: 40px;
+    margin-bottom: 41px;
     max-width: 295px;
 }
 
-.signUp-form {
+.sign-up-form {
     display: block;
 }
 
-.signUp-input {
+.sign-up-input {
     width: 100%;
     height: 46px;
     border-radius: 12px;
@@ -57,12 +56,12 @@
     transition: border-color 250ms ease-in-out;
 }
 
-.signUp-input:focus {
+.sign-up-input:focus {
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.50);
 }
 
-.signUp-textarea {
+.sign-up-textarea {
     width: 100%;
     height: 112px;
     border-radius: 12px;
@@ -82,7 +81,7 @@
     transition: border-color 250ms ease-in-out;
 }
 
-.signUp-textarea:focus {
+.sign-up-textarea:focus {
     border-radius: 12px;
     border: 1px solid rgba(255, 255, 255, 0.50);
 }
@@ -90,7 +89,7 @@
 
 
 
-.signUp-btn {
+.sign-up-btn {
 
 
     color: #121212;
@@ -107,7 +106,6 @@
     height: 48px;
 
     margin: 0 auto;
-
     /* padding: 14px 127px; */
 
 
@@ -118,23 +116,25 @@
     margin-bottom: 20px;
 
     transition: background-color 250ms ease-in-out;
+
 }
 
 
-.signUp-btn:hover,
-.signUp-btn:focus {
+.sign-up-btn:hover,
+.sign-up-btn:focus {
     background: #1D1D1D;
     color: #BEA69E;
 }
 
-.signUp-last-text {
+.sign0up-last-text {
     color: rgba(255, 255, 255, 0.50);
     font-size: 12px;
     line-height: 1.33;
-    /* letter-spacing: -0.06em; */
+
+
 }
 
-.signUp-last-text a {
+.sign-up-last-text a {
     color: rgba(255, 255, 255, 0.50);
     text-decoration-line: underline;
 }
@@ -156,11 +156,11 @@
         padding: 0 32px;
     }
 
-    .signUp {
+    .sign-up {
         padding-top: 100px;
     }
 
-    .signUp-title {
+    .sign-up-title {
         font-size: 48px;
         /* font-weight: 500; */
         line-height: 1.13;
@@ -172,7 +172,7 @@
         /* margin-bottom: 20px; */
     }
 
-    .signUp-text {
+    .sign-up-text {
         font-size: 16px;
         /* font-weight: 400; */
         line-height: 1.25;
@@ -181,7 +181,7 @@
         max-width: 480px;
     }
 
-    .signUp-input {
+    .sign-up-input {
         width: 480px;
         height: 60px;
         font-size: 16px;
@@ -189,23 +189,23 @@
         margin-bottom: 14px;
     }
 
-    .signUp-textarea {
+    .sign-up-textarea {
         width: 480px;
         height: 119px;
         font-size: 16px;
         line-height: 1.25;
     }
 
-    .signUp-btn {
+    .sign-up-btn {
         font-size: 18px;
         line-height: 1.56;
         text-transform: uppercase;
 
-        width: 480px;
+        width: 479px;
         height: 60px;
     }
 
-    .signUp-last-text {
+    .sign-up-last-text {
         font-size: 14px;
         line-height: 1.29;
         max-width: 480px;
@@ -225,11 +225,11 @@
         padding: 0 100px;
     }
 
-    .signUp {
+    .sign-up {
         padding-top: 150px;
     }
 
-    .wrap-signUp {
+    .wrap-sign-up {
         display: flex;
         justify-content: center;
         align-items: center;
@@ -238,17 +238,21 @@
         align-items: flex-start;
     }
 
-    .signUp-input {
+    .sign-up-input {
         display: block;
     }
 
-    .signUp-btn {}
+    .sign-up-textarea {
+        height: 120px;
+    }
+
+    .sign-up-btn {}
 
     .bnt-send {
         text-align: left;
     }
 
-    .signUp-list {
+    .sign-up-list {
         display: flex;
         gap: 20px;
     }
@@ -263,7 +267,7 @@
     }
 
 
-    .signUp-lens {
+    .sign-up-lens {
         border-radius: 1000px;
         background: #BEA69E;
 
@@ -279,14 +283,14 @@
         align-self: flex-end;
     }
 
-    .signUp-img-lens {
+    .sign-up-img-lens {
 
         /* background-color: transparent;
         box-shadow: -35.56212px 17.78106px 25.43959px 0px rgba(0, 0, 0, 0.26); */
     }
 
 
-    .signUp-camera {
+    .sign-up-camera {
         width: 340px;
         height: 540px;
         border-radius: 1000px;
@@ -297,7 +301,7 @@
         padding: 156px 50px 88px;
     }
 
-    .signUp-img-camera {}
+    .sign-up-img-camera {}
 }
 
 
@@ -312,7 +316,7 @@
         max-width: 1440px;
     }
 
-    .wrap-signUp {
+    .wrap-sign-up {
         gap: 200px;
     }
 
@@ -323,14 +327,14 @@
 
 
 
-    .signUp-lens {
+    .sign-up-lens {
         width: 190px;
         height: 288px;
 
         padding: 63px 18px;
     }
 
-    .signUp-camera {
+    .sign-up-camera {
         width: 350px;
         height: 540px;
 
