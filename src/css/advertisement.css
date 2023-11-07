@@ -11,6 +11,9 @@
 .advertisement-title > span{
     color: #BEA69E;
 } 
+.advertisement{
+    border: 1px solid rgba(255, 255, 255, 0.20);
+}
 /* общие стили advertisement*/
 
 
