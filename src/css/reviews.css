@@ -14,59 +14,32 @@
     gap:4px;
 }
 .reviews-title {
-    color: #FFFFFF;
-    
-        
-        font-size: 28px;
-        
-        font-weight: 500;
-        line-height: 1.14;
-        letter-spacing: -0.04em;
-        margin-bottom: 40px;
-       
+    color: #FFFFFF;      
 }
 
 .student-card {
-        width: 335px;
-       
-        
-        border-radius: 12px;
-        border: 1px solid rgba(255, 255, 255, 0.20);
-       
-        margin-top: 40px;
-        padding: 20px;
-
-       
-        
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    padding: 20px;      
 }
 .student-photo-wrap {
     display: flex;
     gap: 10px;
-    margin-bottom: 10px;
 }
 
 
-.student-name-title {
-        
-        color: #FFFFFF;
-        font-size: 20px;
-        
+.student-name-title { 
+        font-size: 20px; 
         font-weight: 500;
         line-height: 1.2;
-
         margin-bottom: 4px;
 }
 .student-status-text {
-        color: rgba(255, 255, 255, 0.50);
-    
-        
+        color: rgba(255, 255, 255, 0.50); 
         font-size: 12px;
-        
         font-weight: 400;
         line-height: 1.33;
-        
         letter-spacing: -0.02em;
-
         margin-bottom: 10px;
 }
 .student-feedback {
@@ -113,14 +86,37 @@
         padding-right: 20px;
         margin: 0 auto;
     }
-        
-        
+    .reviews-title {
+        font-size: 28px;
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: -0.04em;
+        margin-bottom: 40px;
+    }
+    .reviews-icon-wrapper {
+        margin-top: 4px;
+    }
+    .student-status-text {
+        margin-bottom: 0px;
+    }
+    .student-name-title {
+        margin-top: 6px;
+    }
 }
         
    
    
 
 @media screen and (min-width: 375px) and (max-width:767px) {
+    .student-feedback {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.29;
+        letter-spacing: 0.01em;
+    }
+
+    /* my style */ 
+
 .reviews-container {
        max-width: 768px;
        padding-left: 20px;
@@ -139,30 +135,38 @@
             margin-bottom: 40px;
     
         }
-          .student-feedback {
-    
-             font-size: 14px;
-            font-weight: 400;
-              line-height: 1.29;
-              letter-spacing: -0.02em;
-    
-          }
-        
-    
-        }
+
+}
         
 
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     
-    
-    
     .reviews-container {
-            max-width: 1280px;
-            padding-left: 64px;
-            padding-right: 64px;
-            margin: 0 auto;
-        }
+        max-width: 1280px;
+        padding-left: 32px;
+        margin: 0 auto;
+    }
+    .reviews-list{
+        width: 640px;
+        margin-left: 32px;
+        overflow: hidden;
+    }
+    .student-photo-icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        margin-bottom: 20px;
+    }
+    .student-feedback {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.25;
+        letter-spacing: 0.01em;
+        width: 600px;
+
+    }
+    /* my styles */
 
         .reviews-section {
             padding-top: 100px;
@@ -186,18 +190,7 @@
         
                     letter-spacing: -0.02em;
                 }
-                .student-feedback {
-                  
-        
-                    font-size: 16px;
-        
-                    font-weight: 400;
-                    line-height: 1.25;
-                    letter-spacing: -0.02em;
-                    letter-spacing: 0.01em;
-                    width: 600px;
-        
-                }
+                
         
         
         
@@ -212,13 +205,7 @@
                     height: 20px;
         
                 }
-                .student-photo-icon {
-                    display: flex;
-                    justify-content: space-between;
-                  
-                    align-items: flex-start;
-                   
-                }
+                
         
                  .student-card {
                     width: 640px;
@@ -239,94 +226,110 @@
                 
         
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .student-photo-wrap {
+        margin-bottom: 20px;
+    }
+    .student-feedback {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.25;
+        letter-spacing: 0.01em;
+    }
+
+    /* --- my style ---*/ 
+
+
+
     .reviews-container {
         max-width: 1440px;
         padding-left: 100px;
         padding-right: 100px;
         margin: 0 auto;
     }
-                .reviews-section {
-                    padding-top: 150px;
-                    padding-bottom: 150px;
-                }
-    .reviews-title {
-    
-       
+    .reviews-section {
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+    .reviews-title {  
         font-size: 48px;
-      
         font-weight: 500;
         line-height: 1.13;
-       
         letter-spacing: -0.04em;
         margin-bottom: 50px;
         
-}
+    }
+    .student-photo-icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
 
-        
-                  .student-photo-icon {
-                      display: flex;
-                      justify-content: space-between;
-                      align-items: flex-start;
-                  }
+    .second-student-link {
+        display: inline;
 
-.second-student-link {
-    display: inline;
+        width: 100%;
+        height: 100%;
 
-    width: 100%;
-    height: 100%;
+    }
 
-}
-
-.reviews-list {
-    display: flex;
-    gap: 20px;
-}
-.student-card {
-    width: 530px;
-    height: 216px;
-    
-}
-      .student-feedback {
-        font-size: 16px;
-        font-weight: 400;
-        line-height: 1.29;
-      }
-                
-}
-
-@media screen and (min-width: 1440px) {
-   .reviews-container {
-        min-width: 1440px;
-        
+    .reviews-list {
+        display: flex;
+        gap: 20px;
     }
     .student-card {
-            width: 610px;
-            height: 196px;
-        }
-                .student-photo-icon {
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: flex-start;
-                }
-                          .second-student-link {
-                                    display: inline;
-                
-                                    width: 100%;
-                                    height: 100%;
-                
-                                }
-             .reviews-list {
-                display: flex;
-                gap: 20px;
-                }
-    .reviews-title {
-
-
-        margin-bottom: 50px;
+        width: 530px;
+        height: 216px;
+        
     }
-        .student-feedback {
-            font-size: 16px;
-            font-weight: 400;
-            line-height: 1.29;
-        }
+    
+            
+    }
+
+@media screen and (min-width: 1440px) {
+    .reviews-title{
+        width: 171px;
+        height: 54px;
+        margin-bottom: 50px;
+        font-family: DM Sans, sans-serif;
+        font-size: 48px;
+        font-weight: 500;
+        line-height: 1.12;
+        letter-spacing: -0.04em;
+    }
+    .reviews-container {
+        max-width: 1240px;
+    }
+    .reviews-list {
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+    }
+    .student-photo-wrap {
+        margin-bottom: 20px;
+    }
+    .student-feedback {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.25;
+        letter-spacing: -0.002em;
+    }
+/*мои стили */
+    
+    .student-card {
+        width: 610px;
+        height: 196px;
+    }
+    .student-photo-icon {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
+    .second-student-link {
+        display: inline;
+        width: 100%;
+        height: 100%;
+
+    }
+
+    
 }
