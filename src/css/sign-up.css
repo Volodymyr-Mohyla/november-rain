@@ -1,0 +1,365 @@
+.container {
+    max-width: 375px;
+    padding: 0 20px;
+    margin: 0 auto;
+}
+
+/* ================================================== */
+
+.sign-up {
+    padding-top: 80px;
+}
+
+.sign-up-title {
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: -0.05em;
+
+    max-width: 93px;
+    margin-bottom: 20px;
+}
+
+.sign-up-title span {
+    color: #BEA69E;
+}
+
+.sign-up-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.29;
+    letter-spacing: -0.02em;
+    margin-bottom: 40px;
+    max-width: 295px;
+}
+
+.sign-up-form {
+    display: block;
+}
+
+.sign-up-input {
+    width: 100%;
+    height: 46px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background-color: transparent;
+    margin-bottom: 8px;
+
+    outline: transparent;
+
+    color: #FFF;
+    font-size: 14px;
+
+    line-height: 1.29;
+    padding-left: 18px;
+
+    transition: border-color 250ms ease-in-out;
+}
+
+.sign-up-input:focus {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+}
+
+.sign-up-textarea {
+    width: 100%;
+    height: 112px;
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.20);
+    background-color: transparent;
+    resize: none;
+    padding: 14px 18px;
+    margin-bottom: 40px;
+
+    outline: transparent;
+
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    line-height: 1.29;
+
+    transition: border-color 250ms ease-in-out;
+
+}
+
+.sign-up-textarea:focus {
+    border-radius: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.50);
+}
+
+
+
+
+.sign-up-btn {
+
+    color: #121212;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.25;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+
+    width: 100%;
+    height: 48px;
+
+    margin: 0 auto;
+
+    border-radius: 12px;
+    background: #FFF;
+
+    margin-bottom: 20px;
+
+    transition: background-color 250ms ease-in-out;
+
+}
+
+
+.sign-up-btn:hover,
+.sign-up-btn:focus {
+    background: #1D1D1D;
+    color: #BEA69E;
+}
+
+.sign-up-last-text {
+    color: rgba(255, 255, 255, 0.50);
+    font-size: 12px;
+    line-height: 1.33;
+
+}
+
+.sign-up-last-text a {
+    color: rgba(255, 255, 255, 0.50);
+    text-decoration-line: underline;
+}
+
+
+.wrap-image {
+    display: none;
+}
+
+/* ================= END MEDIA 375 ================= */
+
+
+/* ============= MEDIA 768 ========================== */
+
+@media screen and (min-width: 768px) {
+
+    .container {
+        max-width: 768px;
+        padding: 0 32px;
+    }
+
+    .sign-up {
+        padding-top: 100px;
+    }
+
+    .sign-up-title {
+        font-size: 48px;
+        /* font-weight: 500; */
+        line-height: 1.13;
+        /* letter-spacing: -0.05em; */
+
+        max-width: 159px;
+
+        /* margin-bottom: 20px; */
+    }
+
+    .sign-up-text {
+        font-size: 16px;
+        /* font-weight: 400; */
+        line-height: 1.25;
+        /* letter-spacing: -0.02em;
+        margin-bottom: 40px; */
+        max-width: 480px;
+    }
+
+    .sign-up-input {
+        width: 480px;
+        height: 60px;
+        font-size: 16px;
+        line-height: 1.25;
+        margin-bottom: 14px;
+    }
+
+    .sign-up-textarea {
+        width: 480px;
+        height: 119px;
+        font-size: 16px;
+        line-height: 1.25;
+    }
+    .sign-up-lens{
+        position: relative;
+    }
+    .sing-up-div-for-shadow {
+        left: 10%;
+        top: 37%;
+        border-radius: 50%;
+        height: 24%;
+        width: 81%;
+        position: absolute;
+        background: initial;
+        box-shadow: -35.56212px 17.78106px 25.43959px 0px rgba(0, 0, 0, 0.26);
+    }
+
+    .sign-up-btn {
+        font-size: 18px;
+        line-height: 1.56;
+        text-transform: uppercase;
+        margin-top: -8px;
+        padding: 16px 216px;
+
+        width: 479px;
+        height: 60px;
+
+    }
+
+    .sign-up-last-text {
+        font-size: 14px;
+        line-height: 1.29;
+        max-width: 480px;
+    }
+
+}
+
+/* ================ END MEDIA 768 ===================== */
+
+/* ================== MEDIA 1280 ====================== */
+
+
+@media screen and (min-width: 1280px) {
+
+    .container {
+        max-width: 1280px;
+        padding: 0 100px;
+    }
+
+    .sign-up {
+        padding-top: 150px;
+    }
+
+    .wrap-sign-up {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 60px;
+
+        align-items: flex-start;
+    }
+
+    .sign-up-input {
+        display: block;
+    }
+
+    .sign-up-textarea {
+        height: 120px;
+    }
+
+    .sign-up-btn {
+        margin-top: -8px;
+    }
+
+    .bnt-send {
+        text-align: left;
+    }
+
+    .sign-up-list {
+        display: flex;
+        gap: 20px;
+    }
+
+    .wrap-text {
+        display: block;
+    }
+
+    .wrap-image {
+        display: flex;
+        width: 540px;
+    }
+
+
+    .sign-up-lens {
+        border-radius: 1000px;
+        background: #BEA69E;
+
+        width: 180px;
+        height: 288px;
+
+        display: flex;
+        align-items: center;
+
+        padding: 76px 19px 62px;
+        margin-right: 20px;
+
+        align-self: flex-end;
+
+    }
+
+    .sign-up-lens-shadow {}
+
+
+    .sign-up-img-lens {
+
+        /* background-color: transparent;
+        box-shadow: -35.56212px 17.78106px 25.43959px 0px rgba(0, 0, 0, 0.26); */
+
+    }
+
+
+    .sign-up-camera {
+        width: 340px;
+        height: 540px;
+        border-radius: 1000px;
+        background: #1D1D1D;
+
+        display: flex;
+
+        padding: 156px 50px 88px;
+    }
+
+    .sign-up-img-camera {}
+
+
+}
+
+
+/* ================ END MEDIA 1280 ==================== */
+
+/* ================== MEDIA 1440 ====================== */
+
+
+@media screen and (min-width: 1440px) {
+
+    .container {
+        max-width: 1440px;
+    }
+
+    .wrap-sign-up {
+        gap: 200px;
+    }
+
+    .wrap-image {
+        width: 560px;
+    }
+
+
+
+
+    .sign-up-lens {
+        width: 190px;
+        height: 288px;
+
+        padding: 63px 18px;
+    }
+
+    .sign-up-camera {
+        width: 350px;
+        height: 540px;
+
+        padding: 139px 48px 88px;
+    }
+
+}
+
+/* ===================END MEDIA 1440====================== */
