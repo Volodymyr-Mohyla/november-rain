@@ -104,13 +104,13 @@
     }
 
     .footer-logo {
-        padding-top: 40px;
-        padding-bottom: 16px;
+        margin-top: 40px;
+        margin-bottom: 16px;
     }
     
     .footer-links {
         padding-top: 40px;
-        padding-bottom: 75px;
+        margin-bottom: 75px;
         gap: 40px;
     }
     
@@ -151,8 +151,8 @@
     }
 
     .footer-logo {
-        padding-top: 0;
-        padding-bottom: 25px;
+        margin-top: 0;
+        margin-bottom: 25px;
     }
 
     .footer-svg {
@@ -162,8 +162,8 @@
 
     .footer-links {
         gap: 25px;
-        padding-left: 58px;
-        padding-right: 59px;
+        margin-left: 58px;
+        margin-right: 59px;
     }
 
     .footer-social,
@@ -173,7 +173,7 @@
 
     .footer-top {
         display: flex;
-        padding-top: 50px;
+        margin-top: 50px;
         margin-bottom: 74px;
     }
 
@@ -212,7 +212,7 @@
     }
 
     .footer-logo {
-        padding-bottom: 25px;
+        margin-bottom: 25px;
     }
 
     .footer-svg {
@@ -222,8 +222,8 @@
 
     .footer-links {
         gap: 50px;
-        padding-left: 285px;
-        padding-right: 135px;
+        margin-left: 285px;
+        margin-right: 135px;
     }
 
     .footer-social,
@@ -233,13 +233,9 @@
 
     .footer-top {
         display: flex;
-        padding-top: 50px;
+        margin-top: 50px;
         margin-bottom: 50px;
         gap: 0;
-    }
-
-    .footer-form {
-        gap: 16px;
     }
 
     .footer-form {
@@ -279,16 +275,12 @@
 
     .footer-links {
         gap: 100px;
-        padding-left: 341px;
-        padding-right: 191px;
-    }
-
-    .footer-end {
-        gap: 935px;
+        margin-left: 341px;
+        margin-right: 191px;
     }
 
     .footer-logo {
-        padding-bottom: 25px;
+        margin-bottom: 25px;
     }
 
     .footer-svg {
@@ -303,7 +295,7 @@
 
     .footer-top {
         display: flex;
-        padding-top: 50px;
+        margin-top: 50px;
         margin-bottom: 50px;
         gap: 0;
     }
