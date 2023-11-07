@@ -1,9 +1,7 @@
 .reviews-container  {
-    max-width: 320px;
-    padding-left: 20px;
-    padding-right: 20px;
-    
+    max-width: 335px;
     margin: 0 auto;
+    
 }
 .reviews-section {
     background: #121212;
@@ -23,8 +21,9 @@
         
         font-weight: 500;
         line-height: 1.14;
-        
         letter-spacing: -0.04em;
+        margin-bottom: 40px;
+       
 }
 
 .student-card {
@@ -43,6 +42,7 @@
 .student-photo-wrap {
     display: flex;
     gap: 10px;
+    margin-bottom: 10px;
 }
 
 
@@ -54,7 +54,7 @@
         font-weight: 500;
         line-height: 1.2;
 
-        padding-bottom: 4px;
+        margin-bottom: 4px;
 }
 .student-status-text {
         color: rgba(255, 255, 255, 0.50);
@@ -70,23 +70,22 @@
         margin-bottom: 10px;
 }
 .student-feedback {
-    width: 295px;
-    height: 108px;
+    
     font-size: 14px;
 
     font-weight: 400;
-    line-height: 1.28;
+    line-height: 1.29;
     letter-spacing: -0.02em;
 
 }
 
 
 .reviews-icon-wrapper {
-    margin-top: 10px;
+    
     margin-bottom: 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
+    padding-left: 66px;
     gap: 4px;
     
 }
@@ -120,8 +119,6 @@
         
    
    
-   
-
 
 @media screen and (min-width: 375px) and (max-width:767px) {
 .reviews-container {
@@ -136,7 +133,13 @@
             letter-spacing: -0.04px;
           
     }
-        
+          .student-feedback {
+    
+             font-size: 16px;
+              line-height: 1.29;
+              letter-spacing: -0.04em;
+    
+          }
         
     
         }
@@ -153,7 +156,21 @@
             padding-right: 64px;
             margin: 0 auto;
         }
-                .student-status-text {
+.reviews-title {
+        font-size: 48px;
+    
+        font-weight: 500;
+        line-height: 1.12;
+        letter-spacing: -0.02em;
+        margin-bottom: 40px;
+}
+    
+
+
+    
+
+
+        .student-status-text {
                     font-size: 14px;
         
         
@@ -162,8 +179,7 @@
                     letter-spacing: -0.02em;
                 }
                 .student-feedback {
-                  width: 600px;
-                  height: 80px;
+                  
         
                     font-size: 16px;
         
@@ -189,15 +205,20 @@
                 .student-photo-icon {
                     display: flex;
                     justify-content: space-between;
-                                }
+                    gap: 273px;
+                    align-items: flex-start;
+                   
+                }
         
                  .student-card {
                     width: 640px;
                     height: 196px;
                  }
                 .student-name-title {
-                
+                font-size: 20px;
+                font-weight: 500;
                     line-height: 1.4;
+                    letter-spacing: -0.02;
                 
                                  }
                 }
@@ -239,35 +260,38 @@
     width: 530px;
     height: 216px;
 }
-        .student-feedback  {
-            width: 490px;
-            height: 80px;
-        }  
-                .second-student-feedback {
-                    width: 490px;
-                    height: 100px;
-                    color: #FFF;
-                    font-size: 16px;
-                    font-weight: 400;
-                    line-height: 1.25;
-                    letter-spacing: -0.02em;
-  
-                }
+        /* .student-feedback  {
+            
+        }   */
+                
 }
 
 @media screen and (min-width: 1440px) {
-
+   .reviews-container {
+        min-width: 1440px;
+        
+    }
     .student-card {
             width: 610px;
             height: 196px;
         }
-                .student-feedback {
-                    width: 570px;
-                    height: 80px;
+                .student-photo-icon {
+                    display: flex;
+                    justify-content: space-between;
                 }
-    .second-student-feedback {
-       width: 570px;
-       height: 80px;
-
-    }
+                /* .student-feedback {
+                    
+                } */
+                                .second-student-link {
+                                    display: inline;
+                
+                                    width: 100%;
+                                    height: 100%;
+                
+                                }
+             .reviews-list {
+                display: flex;
+                gap: 20px;
+                }
+    
 }
