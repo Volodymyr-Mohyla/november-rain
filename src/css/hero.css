@@ -4,7 +4,6 @@
 .container {
     max-width: 335px;
     background-color: #1D1D1D;
-    padding-top: 20px;
     border-radius: 30px;
 }
 
@@ -16,6 +15,7 @@ font-weight: 500;
 line-height: 1.10;
 letter-spacing: -0.001em;
 margin: 40px 20px;
+padding-top: 40px;
 }
 
 .hero-title span {
@@ -54,19 +54,11 @@ margin-right: 20px;
     margin-left: 20px;
 }
 
-.hero-users-list {
-    display: inline-flex;
-}
-
-.hero-student-item {
+.images {
     display: inline-flex;
     width: 89px;
     height: 36px;
     align-items: center;
-}
-
-.images {
-display: flex;
 }
 
 .images .hero-img {
@@ -82,6 +74,10 @@ display: flex;
     z-index: 1;
 }
 
+.hero-students {
+    display: inline-flex;
+}
+
 .hero-users-text {
     width: 67px;
     color: #FFF;
@@ -94,8 +90,6 @@ letter-spacing: -0.04em;
 .hero-img {
     width: 44px;
 height: 44px;
-flex-shrink: 0;
-background-color: #1D1D1D;
 }
 
 .hero-student-list {
@@ -157,7 +151,7 @@ background: #BEA69E;
 
 .hero-item-star {
     stroke: #121212;
-    stroke-width: 1.5;
+    stroke-width: 2.0;
     fill: transparent;
 }
 
@@ -177,6 +171,12 @@ background: #BEA69E;
     align-self: flex-end;
 }
 
+.hero-rectangle-5 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .hero-rectangle-img {
 }
 
@@ -188,6 +188,7 @@ background: #BEA69E;
 @media screen and (min-width: 375px) and (max-width: 767px) {
     .container {
         max-width: 704px;
+        margin-bottom: 80px;
     }
 
     .hero-title {
