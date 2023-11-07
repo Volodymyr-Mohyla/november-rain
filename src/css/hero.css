@@ -1,0 +1,793 @@
+.hero {
+    margin-top: 20px;
+}
+.hero-cont{
+    background-color: #1D1D1D;
+    border-radius: 30px;
+}
+
+.hero-title span {
+    color: #BEA69E;
+}
+
+.hero-item-arrow {
+    fill: #FFFFFF;
+}
+
+.hero-reviews-list {
+    width: 109px;
+    height: 44px;
+}
+
+.hero-reviews-item {
+    display: inline-flex;
+    width: 104px;
+    height: 44px;
+    align-items: center;
+    gap: 12px;
+}
+
+.hero-reviews-text {
+    color: rgba(255, 255, 255, 0.50);
+font-size: 14px;
+font-weight: 400;
+line-height: 1.28;
+letter-spacing: -0.04em;
+}
+
+.hero-reviews-static {
+    color: #FFF;
+font-size: 16px;
+font-weight: 500;
+line-height: 1.12;
+letter-spacing: -0.04em;
+}
+
+.hero-item-star {
+    stroke: #121212;
+    stroke-width: 2.0;
+    fill: transparent;
+}
+
+.hero-picture-list {
+    /*position: relative;*/
+    width: 100%;
+    height: 314px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+
+.hero-picture-item {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: flex-end;
+}
+
+@media screen and (min-width: 320px) and (max-width: 374px) {
+    .hero {
+        margin-bottom: 80px;
+    }
+    .hero-cont {
+        padding-top: 40px;
+    }
+    .hero-title {
+        max-width: 295px;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 1.1;
+        letter-spacing: -0.04em; /* -1.6/40 */
+        margin-left: 20px;
+    }
+    .hero-text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.28;
+        letter-spacing: -0.02em; /* -0.28/14 */
+        margin: 20px 20px 0;
+    }
+    .hero-img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .container-hero-users {
+        margin-top: 40px;
+        display: flex;
+        gap: 40px;
+    }
+
+    .hero-student {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 109px;
+        height: 84px;
+        justify-content: space-between;
+    }
+
+    .hero-students{
+        display: flex;
+        gap: 4px;
+        align-items: center;
+    }
+
+    .hero-users-list {
+        display: inline-flex;
+    }
+
+    .hero-student-item {
+        width: 89px;
+        height: 36px;
+    }
+    .hero-images {
+        display: flex;
+        width: 109px;
+        height: 44px;
+        position: relative;
+    }  
+    .hero-images>picture{
+        height: 44px;
+        width: 44px;
+        position: absolute;
+        top: 0;
+    }
+    .hero-images > picture:nth-child(1){ 
+        left: 0;
+        z-index: 3;
+    }
+    .hero-images>picture:nth-child(2) {
+        left: 32px;
+        z-index: 2;
+    }
+    .hero-images>picture:nth-child(3) {
+        left: 64px;
+    }
+    .hero-reviews {
+        width: 104px;
+        height: 44px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero-reviews-text-poin {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        justify-content: center;
+        width: 57px;
+    }
+    .hero-reviews-text-poin > .hero-points-number-text{
+        font-family: DM Sans, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.13;
+        /* 112.5% */
+        letter-spacing: -0.02em; /* 0.64/16 */
+    }
+    .hero-reviews-text-poin p:first-child{
+        color: rgba(255, 255, 255, 0.50);
+        font-family: DM Sans, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+    }
+    .hero-div-for-photouser {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 31px;
+    }
+    .hero-users-text {
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.04em;
+        width: 67px;
+    }
+    .hero-rectangle {
+        display: flex;
+        width: 44px;
+        height: 44px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: #BEA69E;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 767px) {
+    .hero {
+        margin-bottom: 80px;
+    }
+    .hero-cont {
+        padding-top: 40px;
+    }
+    .hero-title {
+        max-width: 295px;
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 1.1;
+        letter-spacing: -0.04em; /* -1.6/40 */
+        margin: 0 auto;
+    }
+    .hero-text {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.28;
+        letter-spacing: -0.02em; /* -0.28/14 */
+        margin: 20px 20px 0;
+    }
+    .hero-img {
+        width: 44px;
+        height: 44px;
+    }
+
+    .container-hero-users {
+        margin-top: 40px;
+        display: flex;
+        gap: 40px;
+    }
+
+    .hero-student {
+        margin-left: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 109px;
+        height: 84px;
+        justify-content: space-between;
+    }
+
+    .hero-students{
+        display: flex;
+        gap: 4px;
+        align-items: center;
+    }
+
+    .hero-users-list {
+        display: inline-flex;
+    }
+
+    .hero-student-item {
+        width: 89px;
+        height: 36px;
+    }
+    .hero-images {
+        display: flex;
+        width: 109px;
+        height: 44px;
+        position: relative;
+    }  
+    .hero-images>picture{
+        height: 44px;
+        width: 44px;
+        position: absolute;
+        top: 0;
+    }
+    .hero-images > picture:nth-child(1){ 
+        left: 0;
+        z-index: 3;
+    }
+    .hero-images>picture:nth-child(2) {
+        left: 32px;
+        z-index: 2;
+    }
+    .hero-images>picture:nth-child(3) {
+        left: 64px;
+    }
+    .hero-reviews {
+        width: 104px;
+        height: 44px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .hero-reviews-text-poin {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        justify-content: center;
+        width: 57px;
+    }
+    .hero-reviews-text-poin > .hero-points-number-text{
+        font-family: DM Sans, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.13;
+        /* 112.5% */
+        letter-spacing: -0.02em; /* 0.64/16 */
+    }
+    .hero-reviews-text-poin p:first-child{
+        color: rgba(255, 255, 255, 0.50);
+        font-family: DM Sans, sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+    }
+    .hero-div-for-photouser {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 31px;
+    }
+    .hero-users-text {
+        font-size: 14px;
+        line-height: 1.28;
+        letter-spacing: -0.04em;
+        width: 67px;
+    }
+    .hero-rectangle {
+        display: flex;
+        width: 44px;
+        height: 44px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: #BEA69E;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) {
+    .hero {
+        margin-bottom: 100px;
+    }
+    .hero-cont {
+        padding-top: 40px;
+    }
+    .hero-student {
+        width: 231px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+    .hero-images {
+        display: flex;
+        width: 137px;
+        height: 54px;
+        position: relative;
+    }
+
+    .hero-images>picture {
+        height: 54px;
+        width: 54px;
+        position: absolute;
+        top: 0;
+    }
+    .hero-images>picture>img{
+        height: 54px;
+        width: 54px;
+    }
+
+    .hero-images>picture:nth-child(1) {
+        left: 0;
+        z-index: 3;
+    }
+
+    .hero-images>picture:nth-child(2) {
+        left: 40px;
+        z-index: 2;
+    }
+
+    .hero-images>picture:nth-child(3) {
+        left: 83px;
+    }
+    .hero-title {
+        width: 517px;
+        font-size: 64px;
+        line-height: 1.07;
+        letter-spacing: -0.04em;
+        margin-top: 64px;
+        margin-left: 32px;
+        margin-bottom: 20px;
+    }
+    .hero-title:not(span) {
+        font-weight: 500;
+    }
+    .hero-title span {
+        font-style: italic;
+        font-weight: 400;
+    }
+    .hero-text {
+        width: 418px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        margin-left: 32px;
+        margin-bottom: 40px;
+    }
+    .container-hero-users {
+        width: 390px;
+        height: 56px;
+        margin-left: 32px;
+        display: flex;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+    .hero-students{
+        width: 82px;
+        height: 56px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+    .hero-users-text{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.25;
+        letter-spacing: -0.04em;
+        width: 82px;
+    }
+
+    .hero-reviews-text-poin {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        justify-content: center;
+        width: 57px;
+    }
+
+    .hero-reviews-text-poin>.hero-points-number-text {
+        font-family: DM Sans, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.25;
+        letter-spacing: -0.04em;
+    }
+
+    .hero-reviews-text-poin p:first-child {
+        color: rgba(255, 255, 255, 0.50);
+        font-family: DM Sans, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.25;
+        letter-spacing: -0.04em;
+    }
+    .hero-div-for-photouser {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 31px;
+    }
+    .hero-div-for-photouser > img{
+        width: 393px;
+    }
+    .hero-rectangle {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: #BEA69E;
+    }
+    .hero-reviews {
+        width: 119px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+/* вверху мои стили */
+
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1439px) {
+    .hero {
+        margin-bottom: 150px;
+    }
+    .hero-cont {
+        padding-top: 80px;
+        height: 600px;
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        column-gap: 20px;
+    }
+    .hero-student {
+        width: 231px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .hero-images {
+        display: flex;
+        width: 137px;
+        height: 54px;
+        position: relative;
+    }
+
+    .hero-images>picture {
+        height: 54px;
+        width: 54px;
+        position: absolute;
+        top: 0;
+    }
+
+    .hero-images>picture>img {
+        height: 54px;
+        width: 54px;
+    }
+
+    .hero-images>picture:nth-child(1) {
+        left: 0;
+        z-index: 3;
+    }
+
+    .hero-images>picture:nth-child(2) {
+        left: 40px;
+        z-index: 2;
+    }
+
+    .hero-images>picture:nth-child(3) {
+        left: 83px;
+    }
+
+    .hero-title {
+        width: 563px;
+        font-size: 64px;
+        line-height: 1.07;
+        letter-spacing: -0.04em;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .hero-title:not(span) {
+        font-weight: 500;
+    }
+
+    .hero-title span {
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    .hero-text {
+        width: 418px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        margin-left: 50px;
+        margin-bottom: 136px;
+    }
+
+    .container-hero-users {
+        width: 390px;
+        height: 56px;
+        margin-left: 50px;
+        display: flex;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .hero-students {
+        width: 82px;
+        height: 56px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .hero-users-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.25;
+        letter-spacing: -0.04em;
+        width: 82px;
+    }
+
+    .hero-reviews-text-poin {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        justify-content: center;
+        width: 57px;
+    }
+
+    .hero-reviews-text-poin>.hero-points-number-text {
+        font-family: DM Sans, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.25;
+        letter-spacing: -0.04em;
+    }
+
+    .hero-reviews-text-poin p:first-child {
+        color: rgba(255, 255, 255, 0.50);
+        font-family: DM Sans, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.25;
+        letter-spacing: -0.04em;
+    }
+
+    .hero-div-for-photouser {
+        width: 397px;
+    }
+
+    .hero-div-for-photouser>img {
+        width: 393px;
+    }
+    .hero-rectangle {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: #BEA69E;
+    }
+
+    .hero-reviews {
+        width: 119px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+    /* вверху мои стили */
+
+}
+
+@media screen and (min-width: 1440px) {
+
+    .hero {
+        margin-bottom: 150px;
+    }
+    .hero-cont {
+        padding-top: 80px;
+        height: 600px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        column-gap: 130px;
+    }
+
+    .hero-student {
+        width: 231px;
+        height: 56px;
+        display: flex;
+        align-items: center;
+        gap: 12px;
+    }
+
+    .hero-images {
+        display: flex;
+        width: 137px;
+        height: 54px;
+        position: relative;
+    }
+
+    .hero-images>picture {
+        height: 54px;
+        width: 54px;
+        position: absolute;
+        top: 0;
+    }
+
+    .hero-images>picture>img {
+        height: 54px;
+        width: 54px;
+    }
+
+    .hero-images>picture:nth-child(1) {
+        left: 0;
+        z-index: 3;
+    }
+
+    .hero-images>picture:nth-child(2) {
+        left: 40px;
+        z-index: 2;
+    }
+
+    .hero-images>picture:nth-child(3) {
+        left: 83px;
+    }
+
+    .hero-title {
+        width: 563px;
+        font-size: 64px;
+        line-height: 1.07;
+        letter-spacing: -0.04em;
+        margin-left: 50px;
+        margin-bottom: 20px;
+    }
+
+    .hero-title:not(span) {
+        font-weight: 500;
+    }
+
+    .hero-title span {
+        font-style: italic;
+        font-weight: 400;
+    }
+
+    .hero-text {
+        width: 418px;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.29;
+        letter-spacing: -0.02em;
+        margin-left: 50px;
+        margin-bottom: 136px;
+    }
+
+    .container-hero-users {
+        width: 390px;
+        height: 56px;
+        margin-left: 50px;
+        display: flex;
+        gap: 40px;
+        margin-bottom: 40px;
+    }
+
+    .hero-students {
+        width: 82px;
+        height: 56px;
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .hero-users-text {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.25;
+        letter-spacing: -0.04em;
+        width: 82px;
+    }
+
+    .hero-reviews-text-poin {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+        justify-content: center;
+        width: 57px;
+    }
+
+    .hero-reviews-text-poin>.hero-points-number-text {
+        font-family: DM Sans, sans-serif;
+        font-size: 16px;
+        font-weight: 500;
+        line-height: 1.25;
+        letter-spacing: -0.04em;
+    }
+
+    .hero-reviews-text-poin p:first-child {
+        color: rgba(255, 255, 255, 0.50);
+        font-family: DM Sans, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 1.25;
+        letter-spacing: -0.04em;
+    }
+
+    .hero-div-for-photouser {
+        width: 397px;
+    }
+
+    .hero-div-for-photouser>img {
+        width: 393px;
+    }
+
+    .hero-rectangle {
+        display: flex;
+        width: 50px;
+        height: 50px;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+        background: #BEA69E;
+    }
+
+    .hero-reviews {
+        width: 119px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /* вверху мои стили */
+
+}

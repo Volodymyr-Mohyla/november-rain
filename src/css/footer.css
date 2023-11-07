@@ -71,6 +71,7 @@
 .footer-form,
 .footer-end {
     display: flex;
+    justify-content: space-between;
 }
 
 .footer-btn {
@@ -130,7 +131,7 @@
         padding-top: 40px;
         font-size: 12px;
         line-height: 1.3;
-        gap: 72px;
+        
     }
 
     .footer-agreement {
@@ -212,7 +213,7 @@
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
     .footer {
         background-image: url(../img/footer-background-desktop-1280@2x.png);
-        width: 1280px;
+        width: 100%;
     }
 
     .container {
@@ -279,7 +280,7 @@
 
     .footer {
         background-image: url(../img/footer-background-desktop-1440@2x.png);
-        width: 1440px;
+        width: 100%;
     }
 
     .footer-links {
