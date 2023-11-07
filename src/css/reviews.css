@@ -66,7 +66,17 @@
         line-height: 1.33;
         
         letter-spacing: -0.02em;
+
         margin-bottom: 10px;
+}
+.student-feedback-text {
+
+    font-size: 14px;
+
+    font-weight: 400;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+
 }
 
 
@@ -89,18 +99,7 @@
     height: 16px;
     fill: #414141;
 }
-.student-feedback-text {
-   
-    color: #FFFFFF;
 
-       
-  
-        font-weight: 400;
-       
-       
-        letter-spacing: -0.02em;
-        
-}
 .second-student-link {
     display: none;
 }
@@ -115,17 +114,7 @@
         margin: 0 auto;
     }
         
-        .student-feedback-text {
-            
-            color: #FFFFFF;
-    
-    
-    
-            font-weight: 400;
-    
-    
-            letter-spacing: -0.02em;
-        }
+        
 }
         
    
@@ -147,35 +136,7 @@
           
     }
         
-        .student-name-title {
-            
-                line-height: 1.4;
-               
-        }
-        .student-status-text {
-            font-size: 14px;
-                font-style: normal;
-                font-weight: 400;
-                line-height: 1.28;
-                
-                letter-spacing: -0.02em;
-        }
-                
-                
         
-        
-                .student-feedback-text {
-        
-        
-        
-                    font-size: 16px;
-        
-                    font-weight: 400;
-                    line-height: 1.25;
-                    letter-spacing: -0.02em;
-        
-                }
-                
     
         }
         
@@ -191,7 +152,14 @@
             padding-right: 64px;
             margin: 0 auto;
         }
+                .student-status-text {
+                    font-size: 14px;
         
+        
+                    line-height: 1.28;
+        
+                    letter-spacing: -0.02em;
+                }
                 .student-feedback-text {
         
         
@@ -225,7 +193,11 @@
                     width: 640px;
                     height: 196px;
                  }
-
+                .student-name-title {
+                
+                    line-height: 1.4;
+                
+                                 }
                 }
                 
                 
@@ -245,16 +217,7 @@
         
 
 
-.student-feedback-text {
 
-
-    font-size: 16px;
-
-    font-weight: 400;
-    line-height: 1.25;
-    letter-spacing: -0.02em;
-
-}
     
     
     
