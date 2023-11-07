@@ -1,6 +1,4 @@
-.hero {
-    margin-top: 20px;
-}
+
 .hero-cont{
     background-color: #1D1D1D;
     border-radius: 30px;
@@ -67,7 +65,7 @@ letter-spacing: -0.04em;
 
 @media screen and (min-width: 320px) and (max-width: 374px) {
     .hero {
-        margin-bottom: 80px;
+        padding-bottom: 80px;
     }
     .hero-cont {
         padding-top: 40px;
@@ -198,7 +196,7 @@ letter-spacing: -0.04em;
 
 @media screen and (min-width: 375px) and (max-width: 767px) {
     .hero {
-        margin-bottom: 80px;
+        padding-bottom: 80px;
     }
     .hero-cont {
         padding-top: 40px;
@@ -329,7 +327,7 @@ letter-spacing: -0.04em;
 
 @media screen and (min-width: 768px) and (max-width: 1279px) {
     .hero {
-        margin-bottom: 100px;
+        padding-bottom: 100px;
     }
     .hero-cont {
         padding-top: 40px;
@@ -474,7 +472,7 @@ letter-spacing: -0.04em;
 
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
     .hero {
-        margin-bottom: 150px;
+        padding-bottom: 150px;
     }
     .hero-cont {
         padding-top: 80px;
@@ -633,7 +631,7 @@ letter-spacing: -0.04em;
 @media screen and (min-width: 1440px) {
 
     .hero {
-        margin-bottom: 150px;
+        padding-bottom: 150px;
     }
     .hero-cont {
         padding-top: 80px;

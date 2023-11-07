@@ -54,6 +54,35 @@ fieldset {
   margin: 0;
   border: none;
 }
+.background-header-hero {
+  background-image: url(/img/header-hero-background-desktop1440@1x.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
+@media screen and (min-width: 320px) and (max-width: 767px) and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .title-main-section {
+    background-image: url(/img/header-hero-background-mobile@2x.png);
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1279px) and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .title-main-section {
+    background-image: url(/img/header-hero-background-tablet@2x.png);
+  }
+}
+
+@media screen and (min-width: 1280px) and (max-width: 1440px) and (min-device-pixel-ratio: 2),
+(min-resolution: 192dpi),
+(min-resolution: 2dppx) {
+  .title-main-section {
+    background-image: url(/img/header-hero-background-desktop1440@2x.png);
+  }
+}
 
 
