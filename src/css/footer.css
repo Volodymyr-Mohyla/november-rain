@@ -213,7 +213,7 @@
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
     .footer {
         background-image: url(../img/footer-background-desktop-1280@2x.png);
-        width: 1280px;
+        width: 100%;
     }
 
     .container {
@@ -280,7 +280,7 @@
 
     .footer {
         background-image: url(../img/footer-background-desktop-1440@2x.png);
-        width: 1440px;
+        width: 100%;
     }
 
     .footer-links {
