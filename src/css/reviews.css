@@ -205,7 +205,7 @@
                 .student-photo-icon {
                     display: flex;
                     justify-content: space-between;
-                    gap: 273px;
+                  
                     align-items: flex-start;
                    
                 }
@@ -221,6 +221,10 @@
                     letter-spacing: -0.02;
                 
                                  }
+
+                                         .student-container {
+                                             gap: 4px;
+                                         }
                 }
                 
                 
@@ -242,6 +246,7 @@
                   .student-photo-icon {
                       display: flex;
                       justify-content: space-between;
+                      align-items: flex-start;
                   }
 
 .second-student-link {
@@ -260,9 +265,7 @@
     width: 530px;
     height: 216px;
 }
-        /* .student-feedback  {
-            
-        }   */
+        
                 
 }
 
@@ -278,11 +281,9 @@
                 .student-photo-icon {
                     display: flex;
                     justify-content: space-between;
+                    align-items: flex-start;
                 }
-                /* .student-feedback {
-                    
-                } */
-                                .second-student-link {
+                          .second-student-link {
                                     display: inline;
                 
                                     width: 100%;
