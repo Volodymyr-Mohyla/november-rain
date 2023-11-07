@@ -29,7 +29,7 @@
     font-weight: 400;
     line-height: 1.29;
     letter-spacing: -0.02em;
-    margin-bottom: 41px;
+    margin-bottom: 40px;
     max-width: 295px;
 }
 
@@ -79,6 +79,7 @@
     line-height: 1.29;
 
     transition: border-color 250ms ease-in-out;
+
 }
 
 .sign-up-textarea:focus {
@@ -90,6 +91,7 @@
 
 
 .sign-up-btn {
+
     color: #121212;
     font-size: 16px;
     font-style: normal;
@@ -103,12 +105,9 @@
     height: 48px;
 
     margin: 0 auto;
-    /* padding: 14px 127px; */
-
 
     border-radius: 12px;
     background: #FFF;
-
 
     margin-bottom: 20px;
 
@@ -196,8 +195,11 @@
         line-height: 1.56;
         text-transform: uppercase;
 
+        padding: 16px 216px;
+
         width: 479px;
         height: 60px;
+
     }
 
     .sign-up-last-text {
@@ -276,12 +278,17 @@
         margin-right: 20px;
 
         align-self: flex-end;
+
     }
+
+    .sign-up-lens-shadow {}
+
 
     .sign-up-img-lens {
 
         /* background-color: transparent;
         box-shadow: -35.56212px 17.78106px 25.43959px 0px rgba(0, 0, 0, 0.26); */
+
     }
 
 
@@ -297,6 +304,8 @@
     }
 
     .sign-up-img-camera {}
+
+
 }
 
 
