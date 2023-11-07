@@ -95,7 +95,9 @@
     letter-spacing: -0.01em;
   }
   .our-mentors-list {
-    gap: 96px 100px;
+    gap: 93px 100px;
+    width: 488px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -131,6 +133,8 @@
 @media screen and (min-width: 1280px) and (max-width: 1439px) {
   .our-mentors-list {
     gap: 100px;
+    width: 1034px;
+    margin: 0 auto;
   }
 
   .our-mentors-hero {
@@ -179,6 +183,8 @@
 @media screen and (min-width: 1440px) {
   .our-mentors-list {
     gap: 100px;
+    width: 1034px;
+    margin: 0 auto;
   }
   .our-mentors-hero {
     width: 180px;
